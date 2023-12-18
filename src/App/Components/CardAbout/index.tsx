@@ -67,7 +67,7 @@ export default function CardAbout() {
 
           <Box className={styles.linksWrapper}>
             <IconButton
-              href="https://gitlab.com/flaviodanielgs"
+              href="https://github.com/fdanielg"
               classes={{
                 root: styles.iconButtonRoot,
               }}
