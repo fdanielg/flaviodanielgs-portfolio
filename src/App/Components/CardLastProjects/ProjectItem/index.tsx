@@ -8,13 +8,23 @@ interface Props {
   text: string;
   image: string;
   date: string;
+  width?: any;
+  height?: any;
 }
 
-export default function ProjectItem({ text, image, date }: Props) {
+export default function ProjectItem({
+  text,
+  image,
+  date,
+  width,
+  height,
+}: Props) {
   const isMobile = useIsMobile({ mobileSize: 550 });
   return (
     <Box className={styles.container}>
-      <img src={image} />
+      <div className={styles.left}>
+        <img width={width} height={height} src={image} />
+      </div>
       <Box className={styles.right}>
         <Box
           display="flex"

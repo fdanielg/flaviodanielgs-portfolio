@@ -5,8 +5,6 @@ import CardLastProjects from "App/Components/CardLastProjects";
 import CardSkills from "App/Components/CardSkills";
 import Container from "components/Container";
 import styles from "./styles.module.scss";
-import Text from "components/Text";
-import Link from "next/link";
 
 export default function HomePage() {
   return (
@@ -19,14 +17,6 @@ export default function HomePage() {
             <CardLastProjects />
             <CardCertificates />
           </Box>
-        </Box>
-        <Box className={styles.frontAcademy}>
-          <Text size={18}>Powered by</Text>
-          <Link href="https://www.frontacademy.com.br/">
-            <a target="_blank">
-              <img src="images/front-academy.png" />
-            </a>
-          </Link>
         </Box>
       </Container>
     </Box>

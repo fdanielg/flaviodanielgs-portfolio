@@ -19,8 +19,16 @@ export default function CardLastProjects() {
 
           <Box className={styles.projectsWrapper}>
             <ProjectItem
-              date="01/2021 - Atualmente"
-              text="Desenvolvedor React | Pmakers"
+            width={140}
+            height={30}
+              date="03/2023 - Atualmente"
+              text="Desenvolvedor Front-end"
+              image="images/sea-solutions.png"
+            />
+            <ProjectItem
+            width={120}
+              date="10/2020 - 03/2023"
+              text="Desenvolvedor Front-end"
               image="images/pmakers.svg"
             />
           </Box>

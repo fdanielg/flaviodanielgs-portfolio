@@ -31,11 +31,11 @@ export default function CardAbout() {
             </Heading>
             <Box className={styles.textAbout}>
               <Text size={isMobile ? 16 : 18}>
-                Desenvolvedor front-end com mais de 2 anos de experiência com
+                Desenvolvedor front-end com mais de 3 anos de experiência com
                 desenvolvimento web e mobile, apaixonado por desafios e novas
                 tecnologias.
                 <br />
-                Stack atual: ReactJs, NextJs, React Native, SASS e Typescript
+                Stack: ReactJs, NextJs, React Native, SASS e Typescript
               </Text>
             </Box>
           </Box>
