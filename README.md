@@ -1,15 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### 📋 Pré-requisitos
 
-## Getting Started
+- NODE 16
+- NPM OU YARN
 
-First, run the development server:
+### 🔧 Instalação
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- npm install (Para baixar os pacotes)
+- npm run dev (Para inicializar o projeto)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Construído com
 
-Link: [https://flaviodanielgs-portfolio.vercel.app/]
+- NextJs
+- SASS - Utilizado para criar as classes com modules do scss.
+- Material Ui - Utilizado para fazer os componentes
+
+
+## ✒️ Autor
+
+- **Flavio Daniel Girotto de Souza** - [GITHUB](https://github.com/fdanielg) [LINKEDIN](https://www.linkedin.com/in/flaviodaniel/)
+
+## 🔗 Link
+
+Link onde o projeto está hospedado: [LINK](https://flaviodanielgs-portfolio.vercel.app/)
